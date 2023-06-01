@@ -1,0 +1,41 @@
+https://docs.oracle.com/javase/tutorial/uiswing/layout/card.html
+//Where instance variables are declared:
+JPanel cards;
+final static String BUTTONPANEL = "Card with JButtons";
+final static String TEXTPANEL = "Card with JTextField";
+
+//Where the components controlled by the CardLayout are initialized:
+//Create the "cards".
+JPanel card1 = new JPanel();
+...
+JPanel card2 = new JPanel();
+...
+
+//Create the panel that contains the "cards".
+cards = new JPanel(new CardLayout());
+cards.add(card1, BUTTONPANEL);
+cards.add(card2, TEXTPANEL);
+
+
+
+
+
+//Where the GUI is assembled:
+//Put the JComboBox in a JPanel to get a nicer look.
+JPanel comboBoxPane = new JPanel(); //use FlowLayout
+String comboBoxItems[] = { BUTTONPANEL, TEXTPANEL };
+JComboBox cb = new JComboBox(comboBoxItems);
+cb.setEditable(false);
+cb.addItemListener(this);
+comboBoxPane.add(cb);
+...
+pane.add(comboBoxPane, BorderLayout.PAGE_START);
+pane.add(cards, BorderLayout.CENTER);
+...
+
+//Method came from the ItemListener class implementation,
+//contains functionality to process the combo box item selecting
+public void itemStateChanged(ItemEvent evt) {
+    CardLayout cl = (CardLayout)(cards.getLayout());
+    cl.show(cards, (String)evt.getItem());
+}
