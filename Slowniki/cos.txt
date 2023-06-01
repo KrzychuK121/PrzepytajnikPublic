@@ -1,0 +1,21 @@
+ptak;bird
+krowa;cow
+wilk;wolf
+owca;sheep
+pies;dog
+kot;cat
+swinia;pig
+papuga;parrot
+podloga;floor
+sufit;ceiling
+rzecz;thing
+monitor;monitor
+myszka;mouse
+klawiatura;keyboard
+kamerka;cam
+dysk twardy;drive
+butelka;bottle
+woda;water
+ogien;fire
+ziemia;earth
+powietrze;air

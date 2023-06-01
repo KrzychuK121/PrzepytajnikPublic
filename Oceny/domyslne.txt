@@ -1,0 +1,5 @@
+5;100;91;Congratulations!! :D
+4;90;75;Well done! :)
+3;74;51;Not bad ;)
+2;50;30;Practise make u stronger!
+1;29;0;You have to learn more! :(

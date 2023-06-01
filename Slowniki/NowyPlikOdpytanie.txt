@@ -1,0 +1,4 @@
+ptak;bird
+kolega;fellow
+test;test
+trawa;grass
