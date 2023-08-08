@@ -18,8 +18,7 @@ Aplikacja umożliwia korzystanie z wersji **offline** oraz **online**. Wersja **
 * Przeglądanie:
   - ocen
   - zestawów testowych
-
-**Podział opcji głównych po zalogowaniu użytkownika:**
+  - kont
 
 ## Pierwsza wersja programu
 
@@ -41,3 +40,7 @@ Program na początku pyta użytkownika o wybranie programu. Jeśli plik nie istn
 * Zamykanie pobocznych okien aplikacji przy zmianie pliku
 
 ## Druga wersja programu
+
+**Krótki opis programu:**
+
+Rozszerzenie **pierwszej wersji programu**, która od tej pory jest opcją **offline**, o wersję zawierającą opcję logowania użytkowników. Użytkownicy te mają przypisane do siebie role oraz uprawnienia, dzięki którym mogą tworzyć nowe zestawy testowe, systemy oceniania oraz użytkowników, a ponadto przeglądać już istniejące wyżej wymienione elementy, otrzymane oceny oraz skorzystać z opcji odpytania.
