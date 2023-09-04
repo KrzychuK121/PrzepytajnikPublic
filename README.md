@@ -4,21 +4,24 @@ Napisany w Javie program umożliwiający operację na słownikach, z których mo
 
 ## Opis planowanej, skończonej aplikacji
 
-Aplikacja umożliwia korzystanie z wersji **offline** oraz **online**. Wersja **offline** umożliwia korzystanie z plików lokalnych zapisanych na komputerze, pozwalając na skorzystanie z dwóch domyślnych rodzajów kont: **nauczyciela** i **ucznia**. Wersja **online** pozwala na zalogowanie się użytkownika do programu za pomocą personalnego konta. Taki użytkownik ma dostęp do tych opcji programu, do których ma uprawnienia, np. do tworzenia kont, słowników czy też egzaminów, z których uczniowie będą mogli odpowiadać itp. 
+Program posiada swój instalator, który inicjalizuje wszystkie ważne zaszyfrowane pliki na komputerze lokalnym użytkownika oraz właściwy program. Aplikacja umożliwia korzystanie z wersji **offline** oraz **online** przez wiele szkół jednocześnie. Wersja **offline** umożliwia korzystanie z plików lokalnych zapisanych na komputerze, pozwalając na skorzystanie z dwóch domyślnych rodzajów kont: **nauczyciela** i **ucznia**. Wersja **online** pozwala na zalogowanie się użytkownika do programu za pomocą personalnego konta. Taki użytkownik ma dostęp do tych opcji programu, do których ma uprawnienia, np. do tworzenia kont, słowników czy też egzaminów, z których uczniowie będą mogli być oceniani za pomocą różnych testów. Poza operacją na kontach, ocenach oraz zestawach egzaminacyjnych, nauczyciele oraz rodzice mogą sprawdzić statystyki uczniów. Uczniowie również mogą sprawdzić swoje statystyki aby wiedzieć z czym mają największe trudności.
 
 **Planowane funkcjonalności w programie:**
 
-* Odpytanie:
-  - Testowe, dla nauczycieli tworzących zbiór do egzaminu
-  - Właściwe, dla uczniów, by mogli otrzymać z nich oceny
+* Nauka:
+  - testowe, dla nauczycieli tworzących zbiór do egzaminu
+  - właściwe, dla uczniów, by mogli otrzymać z nich oceny
+  - inne testy sprawdzające wiedze uczniów
 * Tworzenie i/lub edycja:
   - zestawów testowych
   - systemów oceniania
   - kont
 * Przeglądanie:
   - ocen
+  - systemów oceniania
   - zestawów testowych
   - kont
+  - statystyk
 
 ## Pierwsza wersja programu
 
@@ -44,3 +47,18 @@ Program na początku pyta użytkownika o wybranie programu. Jeśli plik nie istn
 **Krótki opis programu:**
 
 Rozszerzenie **pierwszej wersji programu**, która od tej pory jest opcją **offline**, o wersję zawierającą opcję logowania użytkowników. Użytkownicy te mają przypisane do siebie role oraz uprawnienia, dzięki którym mogą tworzyć nowe zestawy testowe, systemy oceniania oraz użytkowników, a ponadto przeglądać już istniejące wyżej wymienione elementy, otrzymane oceny oraz skorzystać z opcji odpytania.
+
+**Główne cechy programu:**
+
+Program posiada te same cechy co poprzednia wersja z ewentualnymi zmianami.
+
+* Dostęp do opcji
+  - Odpytanie - bez zmian
+  - Edycja - rozszerzona o edytowanie kont oraz systemów oceniania. Edycja systemów oceniania działa na podobnej zasadzie co edycja zestawów testowych. Edycja kont możliwa jest tylko za pomocą przygotowanego formularza
+  - Przeglądanie zawartości - rozszerzone o możliwość przeglądania ocen, systemów oceniania oraz kont. Przeglądanie ocen jest różne w zależności od tego kto chce przeglądać oceny: nauczyciel widzi listę ocen swoich uczniów, rodzic listę ocen swoich dzieci a uczeń tylko własne oceny
+  - Zmiana pliku - bez zmian
+  - Wylogowanie - opcja uruchomienia programu jeszcze raz, zmieniając zalogowane konto
+
+## Trzecia wersja programu
+
+## Czwarta wersja programu
