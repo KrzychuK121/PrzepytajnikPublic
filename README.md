@@ -4,7 +4,7 @@ Simple desktop Java application for students. This program allows user to create
 
 ## How to run the program
 
-*(description here)*
+Go to the <code>PrzepytajnikPublic/dist</code> directory and download everything. The <code>ProgramOdpytanie.jar</code> is the application file. **Warning**: this application was made using <code>JDK 13</code>. Make sure you have right Java version to run the program.
 
 ## About
 
